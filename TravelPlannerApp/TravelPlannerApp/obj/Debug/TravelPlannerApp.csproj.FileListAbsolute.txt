@@ -20,10 +20,3 @@ D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\obj\Debug\TravelPlanne
 D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\obj\Debug\TravelPlannerApp.csproj.CoreCompileInputs.cache
 D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\obj\Debug\TravelPlannerApp.exe
 D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\obj\Debug\TravelPlannerApp.pdb
-D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\bin\Debug\ImageButton.dll
-D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\bin\Debug\Xamarin.Forms.Core.dll
-D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\bin\Debug\Xamarin.Forms.Xaml.dll
-D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\bin\Debug\ImageButton.pdb
-D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\bin\Debug\Xamarin.Forms.Core.xml
-D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\bin\Debug\Xamarin.Forms.Xaml.xml
-D:\Đồ Án\Travel-App\TravelPlannerApp\TravelPlannerApp\obj\Debug\TravelPlannerApp.csproj.CopyComplete

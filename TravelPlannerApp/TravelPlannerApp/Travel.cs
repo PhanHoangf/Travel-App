@@ -18,24 +18,16 @@ namespace TravelPlannerApp
             InitializeComponent();
         
         }
+        
 
-      
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void Travel_Load(object sender, EventArgs e)
         {
-           
-            
-
             Places();
-
-
         }
-        private void Places()
+        protected void Places()
         {
             for (int i = 1; i < 69; i++)
             {
@@ -44,7 +36,7 @@ namespace TravelPlannerApp
                 if (i == 1)
                 {
                     btn.Text = "Mộc Châu (Sơn La)";
-                    
+                    btn.Click += Btn_Click;
                 }
                 if (i == 2)
                     btn.Text = "Mai Châu ( Hòa Bình)";
@@ -92,26 +84,18 @@ namespace TravelPlannerApp
                     btn.Text = "Bạch Mộc Lương Tử (Lào Cai)";
                 if (i == 24)
                     btn.Text = "Núi Muối (Lào Cai)";
-
                 if (i == 25)
                     btn.Text = "Háng Đồng (Sơn La)";
-
                 if (i == 26)
                     btn.Text = "Y Tý (Lào Cai)";
-
                 if (i == 27)
                     btn.Text = "Sìn Hồ (Lai Châu)";
-
                 if (i == 28)
                     btn.Text = "Pù Luông (Thanh Hóa)";
-
                 if (i == 29)
                     btn.Text = "Bà Nà (Đà Nẵng)";
-
                 if (i == 30)
                     btn.Text = "Đảo Lý Sơn (Quảng Ngãi)";
-
-
                 if (i == 31)
                     btn.Text = "Cù Lao Xanh (Bình Định)";
 
@@ -203,6 +187,18 @@ namespace TravelPlannerApp
                 btn.Location = new Point(10, panel1.Controls.Count * 25);
                 panel1.Controls.Add(btn);
             }
+        }
+
+        protected void Btn_Click(object sender, EventArgs e)
+        {
+            //throw new NotImplementedException();
+           
+            Form frm = new info();
+            //if (frm == null)
+            //{
+                frm.Show();
+                frm.Activate();
+            //}
         }
 
         private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)

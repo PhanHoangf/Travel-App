@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelPlannerApp", "TravelPlannerApp\TravelPlannerApp.csproj", "{E5B91678-0004-4DF6-9202-0B1A4C30A4FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageButton", "C:\Users\tgdd\Desktop\Git\ImageButton-master\ImageButton\ImageButton.csproj", "{0973EDBB-A459-4265-A114-5F748A26123F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{E5B91678-0004-4DF6-9202-0B1A4C30A4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5B91678-0004-4DF6-9202-0B1A4C30A4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5B91678-0004-4DF6-9202-0B1A4C30A4FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0973EDBB-A459-4265-A114-5F748A26123F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0973EDBB-A459-4265-A114-5F748A26123F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0973EDBB-A459-4265-A114-5F748A26123F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0973EDBB-A459-4265-A114-5F748A26123F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

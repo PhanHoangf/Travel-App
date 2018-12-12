@@ -16,10 +16,12 @@ namespace TravelPlannerApp
         {
             InitializeComponent();
         }
-
-        private void info_Load(object sender, EventArgs e)
-        {
-
-        }
+        
+       
+            private void info_Load(object sender, EventArgs e)
+            {
+            label1.Text = "Mộc Châu";
+            }
+        
     }
 }
