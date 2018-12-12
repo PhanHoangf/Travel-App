@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Imaging;
 
 namespace TravelPlannerApp
 {
@@ -27,6 +28,8 @@ namespace TravelPlannerApp
 
         private void Travel_Load(object sender, EventArgs e)
         {
+           
+            
 
             Places();
 
@@ -39,7 +42,10 @@ namespace TravelPlannerApp
                 Button btn = new Button();
 
                 if (i == 1)
+                {
                     btn.Text = "Mộc Châu (Sơn La)";
+                    
+                }
                 if (i == 2)
                     btn.Text = "Mai Châu ( Hòa Bình)";
                 if (i == 3)
