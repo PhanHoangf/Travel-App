@@ -12,16 +12,22 @@ namespace TravelPlannerApp
 {
     public partial class info : Form
     {
+        public delegate void SendMessage(string Message);
+        public SendMessage Sender;
         public info()
         {
             InitializeComponent();
+            Sender = new SendMessage(GetMessage);
+
         }
-        
-       
-            private void info_Load(object sender, EventArgs e)
-            {
-            label1.Text = "Mộc Châu";
-            }
-        
+        private void info_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void GetMessage(string Message)
+        {
+            lblName.Text = Message;
+        }
+
     }
 }

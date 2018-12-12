@@ -13,6 +13,7 @@ namespace TravelPlannerApp
 {
     public partial class Travel : Form
     {
+        info form = new info();
         public Travel()
         {
             InitializeComponent();
@@ -39,9 +40,15 @@ namespace TravelPlannerApp
                     btn.Click += Btn_Click;
                 }
                 if (i == 2)
+                {
                     btn.Text = "Mai Châu ( Hòa Bình)";
+                    btn.Click += Btn_Click1;
+                }
                 if (i == 3)
+                {
                     btn.Text = "Tam Đảo (Vĩnh Phúc)";
+                    btn.Click += Btn_Click2;
+                }
                 if (i == 4)
                     btn.Text = "Hàm Lợn (Hà Nội)";
                 if (i == 5)
@@ -189,21 +196,29 @@ namespace TravelPlannerApp
             }
         }
 
+        private void Btn_Click2(object sender, EventArgs e)
+        {
+            //throw new NotImplementedException();
+            form.Sender("Tam Đảo");
+            form.Show();
+        }
+
+        private void Btn_Click1(object sender, EventArgs e)
+        {
+            //throw new NotImplementedException();
+            form.Sender("Mai Châu");
+            form.Show();
+
+        }
         protected void Btn_Click(object sender, EventArgs e)
         {
             //throw new NotImplementedException();
+
            
-            Form frm = new info();
-            //if (frm == null)
-            //{
-                frm.Show();
-                frm.Activate();
-            //}
+            form.Sender("Mộc Châu");
+            form.Show();
         }
 
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+      
     }
 }

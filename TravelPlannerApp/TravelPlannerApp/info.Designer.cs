@@ -29,11 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(info));
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // imageList1
@@ -64,23 +63,22 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // lblName
             // 
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
-            this.label1.Location = new System.Drawing.Point(13, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1055, 226);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.lblName.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblName.Location = new System.Drawing.Point(13, 9);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(1055, 226);
+            this.lblName.TabIndex = 3;
+            this.lblName.Text = "label1";
+            this.lblName.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
             // info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 435);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblName);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "info";
@@ -95,6 +93,6 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblName;
     }
 }
